@@ -141,7 +141,7 @@ a {
   transform: rotate(180deg);
 }
 
-.question button {
+/* .question button {
   cursor: pointer;
   transition: color 0.3s ease-out, box-shadow 0.3s ease-out,
     background-color 0.3s ease-out;
@@ -152,4 +152,23 @@ a {
   color: white;
   box-shadow: inset 0 -100px 0 0 #777;
   background-color: #777;
+} */
+
+.bootstrap {
+  cursor: pointer;
+  transition: color 0.3s ease-out, box-shadow 0.3s ease-out,
+    background-color 0.3s ease-out;
+  box-shadow: inset 0 0 0 0 #cdcdcd;
+}
+
+.bootstrap:hover {
+  box-shadow: inset 0 -100px 0 0 #cdcdcd;
+  background-color: #cdcdcd;
+}
+.bootstrap:hover > .bootstrap-text h6 {
+  color: black;
+}
+
+.bootstrap:hover > .bootstrap-text h3 {
+  color: black;
 }
